@@ -1,0 +1,33 @@
+/*
+
+Trama Referal Css
+
+*/
+
+#trama_referal{
+	position:absolute;
+	left:20px;
+	bottom:15px;
+	z-index:1;
+}
+#trama_referal a{
+	font-size:35px;
+	line-height:29px;
+	color:#fff;
+	opacity:.7;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+#trama_referal a svg{
+	width:22px;
+	height:auto;
+}
+#trama_referal a:hover{
+	opacity:1;
+	text-decoration:none;
+}
+@media screen and (max-width: 767px)  {
+	#trama_referal{
+		display:none;
+	}
+}
